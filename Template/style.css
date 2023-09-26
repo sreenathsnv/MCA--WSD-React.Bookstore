@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;200;500;700&family=Titillium+Web:wght@300&display=swap');
+*{
+
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+html{
+
+    scroll-behavior: smooth;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+
+    margin:7vh;
+    font-size: 10vh;
+    color:darkorange;
+    filter: drop-shadow(1px 1px 7px #f7f594);
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100vw;
+    height:10vh;
+}
+nav .logo
+{
+    margin-left: 4vw;
+    width:10vw;
+    height:10vw;
+}
+
+nav .logo img{
+
+    width: 10vw;
+    height: 10vw;
+}
+nav .btns
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 1vw;
+    height:5vh;
+    margin-top: 4vh;
+    width:45vw;
+}
+nav button{
+
+    margin-right: 0vh;
+}
+nav .search-area
+{
+    display: flex;
+    justify-content: space-between;
+    width:20vw;
+}
+nav .search-area button
+{
+    margin-left: 2vh;
+}
+
+.window
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100vw;
+    margin-top:20vh;
+}
+.window-home
+{
+    display: flex;
+    flex-direction: column;
+    width:89vw;
+    align-items: center;
+    border-radius: 1vh;
+    background: url('https://images.pexels.com/photos/1106468/pexels-photo-1106468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    min-height: 50vh;
+    filter:grayscale(.6);
+    justify-content: space-around;
+
+}
+.window-home .content
+{
+    font-size: 10vh;
+    font-weight: 600;
+    color:#ffffff;
+    margin-left:5vw;
+    filter: drop-shadow(2px 2px 2px #555555);
+}
+.window-home .promo
+{
+    font-size: 3vh;
+    color:#f3f3f3;
+    font-weight: 600;
+    filter: drop-shadow(2px 2px 2px #f31c04);
+}
+.books
+{
+    width:89vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.books .book
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    border-radius: .5vh;
+    background: #fff;
+    border:1px solid #414040;
+    padding:2vh 3vh 2vh 3vh;
+
+}
+.book img{
+
+    width:15vw;
+    height:10vw;
+    margin-top:1vh;
+    margin-bottom: 3vh;
+}
+.book .bookname
+{
+    font-size: 2.5vh;
+    color:#f31c04;
+
+}
+
+.book  .book-author
+{
+    font-size: 2vh;
+    color:#442746;
+    
+}
+.book .category
+{
+    font-size: 1.5;
+    color:#7b7b7b;
+}
+.btns
+{
+    display: flex;
+    width:11vw;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
