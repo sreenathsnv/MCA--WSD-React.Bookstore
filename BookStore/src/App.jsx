@@ -21,13 +21,12 @@ function App() {
     }
   }
 
-  fetchBooks()
 
   return (
     <>
       <h1>Online Bookstore</h1>
       <Nav/>
-      
+
     </>
   )
 }

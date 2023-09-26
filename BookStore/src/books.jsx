@@ -1,7 +1,7 @@
 
 import Book from "./book"
 
-export default function Books()
+export default function Books(bookdata)
 {
     return(
         <div className="window ">
