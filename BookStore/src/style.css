@@ -118,7 +118,7 @@ nav .search-area button
     align-items: center;
     margin-top:6vh;
 }
-.books .book
+.book
 {
     display: flex;
     flex-direction: column;
