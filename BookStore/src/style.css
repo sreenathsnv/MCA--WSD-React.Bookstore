@@ -112,13 +112,13 @@ nav .search-area button
 {
     width:89vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     margin-top:6vh;
 }
-.book
+.books .book
 {
     display: flex;
     flex-direction: column;
@@ -128,6 +128,8 @@ nav .search-area button
     background: #fff;
     border:1px solid #414040;
     padding:2vh 3vh 2vh 3vh;
+    width:30vw;
+    margin:4vh;
 
 }
 .book img{
@@ -150,15 +152,27 @@ nav .search-area button
     color:#442746;
     
 }
-.book .category
+.book .review
 {
-    font-size: 1.5;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vh;
     color:#7b7b7b;
+}
+.book .review h2
+{
+    font-size: 2vh;
+    color:#2cbe36;
+    border:1px solid #bcbcbc;
+    margin: auto;
+    padding:1vh 2vh;
+    margin-bottom: 1vh;
+
 }
 .btns
 {
     display: flex;
-    width:11vw;
+    width:17vw;
     justify-content: space-between;
     margin-top: 2vh;
 }
